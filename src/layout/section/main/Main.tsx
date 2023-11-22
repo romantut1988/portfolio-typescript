@@ -19,9 +19,9 @@ export const Main = () => {
     );
 };
 
-const StyledMain = styled.div `
-    min-height: 100vh;
-  background-color: #fff5e7;
+const StyledMain = styled.div`
+  min-height: 100vh;
+  background-color: #1F1F20;
 `
 
 const Photo = styled.img`
@@ -30,9 +30,9 @@ const Photo = styled.img`
   object-fit: cover;
 `
 
-const MainTitle = styled.h1 `
-  
+const MainTitle = styled.h1`
+
 `
-const Name = styled.h2 `
-  
+const Name = styled.h2`
+
 `

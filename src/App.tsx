@@ -1,8 +1,9 @@
 import './App.css';
 import {Header} from './layout/header/Header'
 import {Main} from './layout/section/main/Main'
-import { Skills } from './layout/section/skills/Skills';
-import { Works } from './layout/section/works/Works';
+import {Skills} from './layout/section/skills/Skills';
+import {Testimony} from './layout/section/testimony/Testimony';
+import {Works} from './layout/section/works/Works';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Main/>
             <Skills/>
             <Works/>
+            <Testimony/>
         </div>
     );
 }

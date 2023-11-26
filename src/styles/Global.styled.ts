@@ -34,7 +34,7 @@ export const GlobalStyle = createGlobalStyle`
     border: none;
   }
 
-  .section {
+  section {
     padding: 100px 0;
   }
   

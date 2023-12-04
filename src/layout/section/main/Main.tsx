@@ -10,7 +10,7 @@ export const Main = () => {
     return (
         <StyledMain>
             <Container>
-                <FlexWrapper align={"center"} justify={"space-between"} wrap={"wrap"}>
+                <FlexWrapper align={"center"} justify={"space-around"} wrap={"wrap"}>
                     <div>
                         <SmallText>Hi There</SmallText>
                         <Name>I am <span>Roman Amelkovich</span></Name>
@@ -35,6 +35,7 @@ const Photo = styled.img`
   width: 350px;
   height: 430px;
   object-fit: cover;
+  margin-right: 20px;
   
   @media ${theme.media.mobile} {
     width: 310px;
@@ -60,6 +61,8 @@ const PhotoWrapper = styled.div`
     @media ${theme.media.mobile} {
       width: 314px;
       height: 414px;
+      top: -17px;
+      left: 20px;
     }
   }
 `

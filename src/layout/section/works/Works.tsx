@@ -7,6 +7,7 @@ import socialImg from './../../../assets/images/proj-1.png'
 import timerImg from './../../../assets/images/proj-2.png'
 import {Container} from '../../../components/Container';
 import {TabMenu} from './tabMenu/TabMenu';
+import {S} from './Works_Styles';
 
 
 const worksItems = ["All", "landing page", "React", "spa"]
@@ -25,9 +26,9 @@ const workData = [
 ]
 
 
-export const Works = () => {
+export const Works: React.FC = () => {
     return (
-        <StyledWorks>
+        <S.Works>
             <Container>
                 <SectionTitle>My Works</SectionTitle>
                 <TabMenu menuItems={worksItems}/>
@@ -39,14 +40,8 @@ export const Works = () => {
                     })}
                 </FlexWrapper>
             </Container>
-        </StyledWorks>
+        </S.Works>
     );
 };
-
-const StyledWorks = styled.section`
-  ${FlexWrapper} {
-    gap: 30px;
-  }
-`
 
 

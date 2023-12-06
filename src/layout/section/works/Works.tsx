@@ -11,6 +11,19 @@ import {TabMenu} from './tabMenu/TabMenu';
 
 const worksItems = ["All", "landing page", "React", "spa"]
 
+const workData = [
+    {
+        title: "Social Network",
+        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        src: socialImg
+    },
+    {
+        title: "Timer",
+        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit  ut labore et dolore magna aliqua Ut enim",
+        src: timerImg
+    }
+]
+
 
 export const Works = () => {
     return (
@@ -19,19 +32,15 @@ export const Works = () => {
                 <SectionTitle>My Works</SectionTitle>
                 <TabMenu menuItems={worksItems}/>
                 <FlexWrapper justify={"space-between"} align={"flex-start"} wrap={"wrap"}>
-                    <Work title={"Social Network"}
-                          text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit."}
-                          src={socialImg}
-                    />
-                    <Work title={"Timer"}
-                          text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit  ut labore et dolore magna aliqua Ut enim"}
-                          src={timerImg}
-                    />
+                    {workData.map((w, index) => {
+                        return <Work title={w.title}
+                                     text={w.text}
+                                     src={w.src}/>
+                    })}
                 </FlexWrapper>
             </Container>
         </StyledWorks>
-    )
-        ;
+    );
 };
 
 const StyledWorks = styled.section`

@@ -7,7 +7,7 @@ import {SectionTitle} from '../../../components/SectionTitle';
 import {Slider} from '../../../components/slider/Slider';
 import {S} from '../skills/Skills_Styles'
 
-export const Testimony = () => {
+export const Testimony: React.FC = () => {
     return (
         <StyledTestimony>
             <Container>

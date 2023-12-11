@@ -14,13 +14,13 @@ const worksItems = ["All", "landing page", "React", "spa"]
 
 const workData = [
     {
-        title: "Social Network",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
+        title: "My GitHub",
+        text: "I have a lot of projects. I use different preprocessors and third-party libraries.",
         src: socialImg
     },
     {
-        title: "Timer",
-        text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit  ut labore et dolore magna aliqua Ut enim",
+        title: "Description of projects",
+        text: "You can view all the works in the projects tab and get acquainted with them, there are a lot of them. Enjoy your viewing.",
         src: timerImg
     }
 ]

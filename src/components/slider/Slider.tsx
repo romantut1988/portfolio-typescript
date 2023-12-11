@@ -10,10 +10,9 @@ export const Slider: React.FC = () => {
             <FlexWrapper>
                 <S.Slide>
                     <S.Text>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Roman Amelkovich. Programmer engineer, programming course teacher, technical specialist, mentor.
                     </S.Text>
-                    <S.Name>@ivan ivanow</S.Name>
+                    <S.Name>Roman Amelkovich</S.Name>
                 </S.Slide>
             </FlexWrapper>
             <S.Pagination>

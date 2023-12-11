@@ -10,32 +10,32 @@ const skillData = [
     {
         iconId: "code",
         title: "html5",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"
+        description: "I am familiar with all the new HTML5 tags, as well as attributes, and I use basically everything in practice, with the exception of those that are already outdated"
     },
     {
         iconId: "css",
         title: "css3",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"
+        description: "I put styles into practice and also use additional preprocessors of the SASS, Less, SCSS"
     },
     {
         iconId: "react",
         title: "react",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"
+        description: "I use this library when necessary in applications or creating websites."
     },
     {
         iconId: "typeScript",
         title: "typescript",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"
+        description: "TypeScript is a programming language based on JavaScript. I use it in practice due to its typing."
     },
     {
         iconId: "styledComponents",
         title: "styled components",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"
+        description: "Styled Components - I use this library to style React applications. It allows you to create custom components by writing the CSS itself in JavaScript. A very convenient tool."
     },
     {
         iconId: "figma",
         title: "WEB DESIGN",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim"
+        description: "Figma has been familiar for a long time - a graphic editor for the joint design of websites, applications and other design products. There is a practicality in using it only as a developer."
     }
 ]
 

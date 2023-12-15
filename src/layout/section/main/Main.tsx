@@ -3,6 +3,7 @@ import photo from '../../../assets/images/i.jpg'
 import {Container} from '../../../components/Container';
 import {FlexWrapper} from '../../../components/FlexWrapper';
 import Typewriter from 'typewriter-effect';
+import Tilt from 'react-parallax-tilt';
 import {S} from './Main_Styles'
 
 
@@ -27,9 +28,18 @@ export const Main: React.FC = () => {
                             />
                         </S.MainTitle>
                     </div>
-                    <S.PhotoWrapper>
-                        <S.Photo src={photo} alt=""/>
-                    </S.PhotoWrapper>
+                    <Tilt
+                        className="parallax-effect-img"
+                        tiltMaxAngleX={40}
+                        tiltMaxAngleY={40}
+                        perspective={800}
+                        transitionSpeed={1500}
+                        scale={1.1}
+                        gyroscope={true}
+                    >
+                        <S.PhotoWrapper>
+                            <S.Photo src={photo} alt=""/>
+                        </S.PhotoWrapper></Tilt>
                 </FlexWrapper>
             </Container>
         </S.Main>

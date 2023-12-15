@@ -73,7 +73,10 @@ const Name = styled.h2`
   }
 `
 const MainTitle = styled.h1`
-  ${font({weight: 400, Fmax: 27, Fmin: 20})}
+  ${font({weight: 400, Fmax: 27, Fmin: 20})};
+  p { 
+    display: none;
+  }
 `
 const SmallText = styled.h2`
   font-size: 14px;

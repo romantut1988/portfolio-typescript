@@ -1,10 +1,12 @@
 import styled from "styled-components"
-import { Button } from "../../../components/Button"
-import { FlexWrapper } from "../../../components/FlexWrapper"
-import { Link } from "../../../components/Link"
-import { theme } from "../../../styles/Theme"
+import {Button} from "../../../components/Button"
+import {FlexWrapper} from "../../../components/FlexWrapper"
+import {Link} from "../../../components/Link"
+import {theme} from "../../../styles/Theme"
 
 const Works = styled.section`
+  position: relative;
+
   ${FlexWrapper} {
     gap: 30px;
   }
@@ -94,11 +96,11 @@ const Text = styled.p`
 `
 
 export const S = {
-  Works,
-  Work,
-  ImageWrapper,
-  Image,
-  Decription,
-  Title,
-  Text
+    Works,
+    Work,
+    ImageWrapper,
+    Image,
+    Decription,
+    Title,
+    Text
 }

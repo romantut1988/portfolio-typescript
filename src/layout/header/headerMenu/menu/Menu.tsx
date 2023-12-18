@@ -30,7 +30,13 @@ export const Menu: React.FC = () => {
         <ul>
             {items.map((item, index) => {
                 return <S.MenuItem key={index}>
-                    <S.Link href={`#${item.href}`}>
+                    <S.NavLink
+                        activeClass="active"
+                        to={item.href}
+                        smooth={true}
+                        spy={true}
+
+                    >
                         {item.title}
                         <S.Mask>
                             <span>{item.title}</span>
@@ -38,7 +44,7 @@ export const Menu: React.FC = () => {
                         <S.Mask>
                             <span>{item.title}</span>
                         </S.Mask>
-                    </S.Link>
+                    </S.NavLink>
                 </S.MenuItem>
             })}
         </ul>

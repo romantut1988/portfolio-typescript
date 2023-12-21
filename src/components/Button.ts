@@ -8,7 +8,7 @@ export const Button = styled.button`
   text-transform: uppercase;
   cursor: pointer;
   color: #fff;
-  width: 172px;
+  width: 170px;
   height: 32px;
   position: relative;
   z-index: 0;
@@ -23,12 +23,13 @@ export const Button = styled.button`
   &::before {
     content: "";
     display: inline-block;
-    height: 50%;
     height: 10px;
     background-color: ${theme.colors.accent};
+    
     position: absolute;
     bottom: 0;
     left: 50%;
+    transition: ${theme.animation.transition};
     transform: translateX(-50%);
     z-index: -1;
   }

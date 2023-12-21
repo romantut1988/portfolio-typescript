@@ -1,6 +1,6 @@
 import styled from "styled-components"
-import { font } from "../../styles/Common"
-import { theme } from "../../styles/Theme"
+import {font} from "../../styles/Common"
+import {theme} from "../../styles/Theme"
 
 const Footer = styled.footer`
   position: relative;
@@ -26,6 +26,7 @@ const SocialLink = styled.a`
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: ${theme.animation.transition};
   width: 35px;
   height: 35px;
   color: ${theme.colors.accent};
